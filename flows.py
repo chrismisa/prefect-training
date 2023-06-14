@@ -13,10 +13,10 @@ def formatting(fact: str):
 
 
 @flow
-def pipe():
+def pipe(name: str):
     fact = fetch_cat_fact()
     formatted_fact = formatting(fact)
 
 
 if __name__ == "__main__":
-    pipe()
+    pipe(name)
