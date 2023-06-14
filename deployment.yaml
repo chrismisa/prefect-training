@@ -6,7 +6,7 @@ deployments:
   schedule: {}
   flow_name: null
   entrypoint: null
-  parameters: {}
+  parameters: {name: Mavin}
   work_pool:
     name: null
     work_queue_name: null

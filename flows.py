@@ -16,6 +16,7 @@ def formatting(fact: str):
 def pipe(name: str):
     fact = fetch_cat_fact()
     formatted_fact = formatting(fact)
+    print("test repo")
 
 
 if __name__ == "__main__":
